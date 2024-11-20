@@ -1,0 +1,1 @@
+//The captured details are stored in text file att /var/www/html

